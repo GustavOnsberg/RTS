@@ -1,0 +1,96 @@
+﻿Log file open, 07/28/17 16:22:12
+LogInit:Display: Running engine for game: RTS
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(978203891) SRandInit(978203891).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.291381
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCWorld_01 -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.28-14.22.15:497][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.28-14.22.15:497][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.28-14.22.15:508][  0]LogInit: Computer: AWESOME-X1
+[2017.07.28-14.22.15:508][  0]LogInit: User: FuckingWIN8
+[2017.07.28-14.22.15:508][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.07.28-14.22.15:508][  0]LogInit: High frequency timer resolution =2.630635 MHz
+[2017.07.28-14.22.15:509][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.07.28-14.22.15:509][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.28-14.22.15:509][  0]LogMemory: Process Physical Memory: 273.51 MB used, 273.51 MB peak
+[2017.07.28-14.22.15:509][  0]LogMemory: Process Virtual Memory: 266.99 MB used, 266.99 MB peak
+[2017.07.28-14.22.15:509][  0]LogMemory: Physical Memory: 5909.61 MB used,  2162.15 MB free, 8071.77 MB total
+[2017.07.28-14.22.15:509][  0]LogMemory: Virtual Memory: 644.29 MB used,  2162.15 MB free, 134217728.00 MB total
+[2017.07.28-14.22.15:867][  0]LogInit: Using OS detected language (da-DK).
+[2017.07.28-14.22.15:867][  0]LogInit: Using OS detected locale (da-DK).
+[2017.07.28-14.22.15:878][  0]LogTextLocalizationManager: No localization for 'da-DK' exists, so 'en' will be used for the language.
+[2017.07.28-14.22.15:878][  0]LogTextLocalizationManager: No localization for 'da-DK' exists, so 'en' will be used for the locale.
+[2017.07.28-14.22.20:157][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.28-14.22.20:200][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.07.28-14.22.20:200][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.07.28-14.22.20:213][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.28-14.22.20:213][  0]LogD3D11RHI:       0/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.28-14.22.20:213][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.28-14.22.20:252][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.28-14.22.20:253][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.28-14.22.20:253][  0]LogWindows: EnumDisplayDevices:
+[2017.07.28-14.22.20:253][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.07.28-14.22.20:256][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.07.28-14.22.20:257][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.07.28-14.22.20:257][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.07.28-14.22.20:257][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
+[2017.07.28-14.22.20:257][  0]LogD3D11RHI:   Driver Version: 20.19.15.4531 (internal:20.19.15.4531, unified:20.19.15.4531)
+[2017.07.28-14.22.20:257][  0]LogD3D11RHI:      Driver Date: 9-29-2016
+[2017.07.28-14.22.20:257][  0]LogRHI: Texture pool is 795 MB (70% of 1136 MB)
+[2017.07.28-14.22.20:287][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.28-14.22.20:314][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.07.28-14.22.20:318][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Intermediate/Shaders/WorkingDirectory/8292/).
+[2017.07.28-14.22.20:319][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Fucking WIN8/AppData/Local/Temp/UnrealShaderWorkingDir/E95B1CA94063FB80F14B429A1B0443B9/'.
+[2017.07.28-14.22.20:319][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.28-14.22.30:294][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.28-14.22.30:966][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.28-14.22.31:488][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.28-14.22.32:100][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.28-14.22.32:100][  0]LogTargetPlatformManager:Display: Building Assets For Windows
