@@ -140,3 +140,40 @@ LogInit: Object subsystem initialized
 [2017.07.28-11.01.18:627][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
 [2017.07.28-11.01.18:627][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
 [2017.07.28-11.01.18:627][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.28-11.01.25:890][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.28-11.01.26:042][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.28-11.01.27:468][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.28-11.01.28:554][  0]SourceControl: Info Source control is disabled
+[2017.07.28-11.01.28:651][  0]SourceControl: Info Source control is disabled
+[2017.07.28-11.01.28:807][  0]SourceControl: Info Source control is disabled
+[2017.07.28-11.01.28:942][  0]SourceControl: Info Source control is disabled
+[2017.07.28-11.01.31:136][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.28-11.01.32:674][  0]LogEngine: Initializing Engine...
+[2017.07.28-11.01.32:675][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.28-11.01.32:992][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.28-11.01.32:992][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.28-11.01.33:326][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.28-11.01.33:339][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.28-11.01.33:376][  0]LogInit: FAudioDevice initialized.
+[2017.07.28-11.01.33:450][  0]LogDerivedDataCache: Saved boot cache 0.07s 90MB C:/Users/Fucking WIN8/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.28-11.01.33:470][  0]LogInit: Texture streaming: Enabled
+[2017.07.28-11.01.33:755][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.28-11.01.34:331][  0]LogInit: Transaction tracking system initialized
+[2017.07.28-11.01.35:383][  0]BlueprintLog: New page: Editor Load
+[2017.07.28-11.01.38:117][  0]LocalizationService: Info Localization service is disabled
+[2017.07.28-11.01.40:346][  0]LogConsoleResponse:Display: 
+[2017.07.28-11.01.40:776][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.28-11.01.40:777][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.28-11.01.41:081][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/' took 0.01s
+[2017.07.28-11.01.44:202][  0]SourceControl: Info Source control is disabled
+[2017.07.28-11.01.44:202][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/Maps/MenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.28-11.01.44:203][  0]LightingResults: New page: Lighting Build
+[2017.07.28-11.01.44:325][  0]MapCheck: New page: Map Check
+[2017.07.28-11.01.44:326][  0]LightingResults: New page: Lighting Build
+[2017.07.28-11.01.44:512][  0]LogAIModule: Creating AISystem for world MenuMap
+[2017.07.28-11.01.44:514][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.28-11.01.44:554][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.28-11.01.44:642][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.333ms to complete.
+[2017.07.28-11.01.44:642][  0]LogFileHelpers: Loading map 'MenuMap' took 0.440
+[2017.07.28-11.01.44:659][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.28-11.01.45:051][  0]LogCollectionManager: Loaded 0 collections in 0.007903 seconds
