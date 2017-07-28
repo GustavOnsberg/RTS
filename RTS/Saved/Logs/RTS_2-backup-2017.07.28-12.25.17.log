@@ -1,0 +1,201 @@
+﻿Log file open, 07/28/17 12:21:45
+LogInit:Display: Running engine for game: RTS
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1681458372) SRandInit(1681458372).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.172972
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCMenuMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.28-10.21.48:876][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.28-10.21.48:876][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.28-10.21.48:899][  0]LogInit: Computer: AWESOME-X1
+[2017.07.28-10.21.48:899][  0]LogInit: User: FuckingWIN8
+[2017.07.28-10.21.48:899][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.07.28-10.21.48:900][  0]LogInit: High frequency timer resolution =2.630635 MHz
+[2017.07.28-10.21.48:901][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.07.28-10.21.48:901][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.28-10.21.48:901][  0]LogMemory: Process Physical Memory: 273.27 MB used, 273.27 MB peak
+[2017.07.28-10.21.48:901][  0]LogMemory: Process Virtual Memory: 258.81 MB used, 258.81 MB peak
+[2017.07.28-10.21.48:901][  0]LogMemory: Physical Memory: 5546.69 MB used,  2525.07 MB free, 8071.77 MB total
+[2017.07.28-10.21.48:901][  0]LogMemory: Virtual Memory: 636.29 MB used,  2525.07 MB free, 134217728.00 MB total
+[2017.07.28-10.21.49:429][  0]LogInit: Using OS detected language (da-DK).
+[2017.07.28-10.21.49:429][  0]LogInit: Using OS detected locale (da-DK).
+[2017.07.28-10.21.49:446][  0]LogTextLocalizationManager: No localization for 'da-DK' exists, so 'en' will be used for the language.
+[2017.07.28-10.21.49:449][  0]LogTextLocalizationManager: No localization for 'da-DK' exists, so 'en' will be used for the locale.
+[2017.07.28-10.21.54:472][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.28-10.21.54:485][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.07.28-10.21.54:485][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.07.28-10.21.54:488][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.28-10.21.54:488][  0]LogD3D11RHI:       0/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.28-10.21.54:488][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.28-10.21.54:499][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.28-10.21.54:499][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.28-10.21.54:499][  0]LogWindows: EnumDisplayDevices:
+[2017.07.28-10.21.54:499][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.07.28-10.21.54:500][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.07.28-10.21.54:501][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.07.28-10.21.54:501][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.07.28-10.21.54:501][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
+[2017.07.28-10.21.54:501][  0]LogD3D11RHI:   Driver Version: 20.19.15.4531 (internal:20.19.15.4531, unified:20.19.15.4531)
+[2017.07.28-10.21.54:501][  0]LogD3D11RHI:      Driver Date: 9-29-2016
+[2017.07.28-10.21.54:501][  0]LogRHI: Texture pool is 795 MB (70% of 1136 MB)
+[2017.07.28-10.21.54:511][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.28-10.21.54:521][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.07.28-10.21.54:523][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Intermediate/Shaders/WorkingDirectory/17304/).
+[2017.07.28-10.21.54:523][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Fucking WIN8/AppData/Local/Temp/UnrealShaderWorkingDir/56BDF5404C5B44CD658C4EAB3D332734/'.
+[2017.07.28-10.21.54:524][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.28-10.21.57:812][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.28-10.21.57:957][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.28-10.21.58:108][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.28-10.21.58:254][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.28-10.21.58:254][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.28-10.21.59:873][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.28-10.22.00:054][  0]LogDerivedDataCache: Loaded boot cache 0.18s 90MB C:/Users/Fucking WIN8/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.28-10.22.00:054][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Fucking WIN8/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.28-10.22.00:054][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.28-10.22.00:054][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.28-10.22.00:054][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.28-10.22.00:054][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.28-10.22.00:110][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.28-10.22.00:122][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Fucking WIN8/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.28-10.22.00:150][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.28-10.22.00:150][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.28-10.22.00:151][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.28-10.22.00:151][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.28-10.22.00:859][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2017.07.28-10.22.00:871][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.012044 seconds
+[2017.07.28-10.22.01:129][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.28-10.22.01:266][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.07.28-10.22.01:737][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.28-10.22.01:866][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.28-10.22.02:020][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.28-10.22.02:021][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.28-10.22.02:021][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.28-10.22.03:334][  0]LogNetVersion: RTS , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2270150060)
+[2017.07.28-10.22.05:882][  0]LogMoviePlayer: Initializing movie player
+[2017.07.28-10.22.05:948][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.28-10.22.06:809][  0]LogCollectionManager: Loaded 0 collections in 0.004946 seconds
+[2017.07.28-10.22.06:896][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Saved/Collections/' took 0.01s
+[2017.07.28-10.22.06:896][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/Developers/FuckingWIN8/Collections/' took 0.01s
+[2017.07.28-10.22.06:896][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/Collections/' took 0.01s
+[2017.07.28-10.22.06:896][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.07.28-10.22.06:896][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000087 seconds (updated 0 objects)
+[2017.07.28-10.22.07:243][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.28-10.22.07:320][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.28-10.22.08:074][  0]SourceControl: Info Source control is disabled
+[2017.07.28-10.22.08:074][  0]SourceControl: Info Source control is disabled
+[2017.07.28-10.22.08:168][  0]SourceControl: Info Source control is disabled
+[2017.07.28-10.22.08:658][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.28-10.22.09:637][  0]LogUObjectArray: 37220 objects as part of root set at end of initial load.
+[2017.07.28-10.22.09:637][  0]LogUObjectAllocator: 8398840 out of 0 bytes used by permanent object pool.
+[2017.07.28-10.22.09:637][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.28-10.22.09:839][  0]LogEngine: Initializing Engine...
+[2017.07.28-10.22.09:840][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.28-10.22.10:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.28-10.22.10:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.28-10.22.10:184][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.28-10.22.10:214][  0]LogInit: FAudioDevice initialized.
+[2017.07.28-10.22.10:243][  0]LogInit: Texture streaming: Enabled
+[2017.07.28-10.22.10:287][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.28-10.22.10:933][  0]LogSlateStyle:Warning: Unable to find Slate Widget Style 'NormalText'. Using FTextBlockStyle defaults instead.
+[2017.07.28-10.22.10:933][  0]LogSlateStyle:Warning: Unable to find Slate Widget Style 'SpinBox'. Using FSpinBoxStyle defaults instead.
+[2017.07.28-10.22.11:397][  0]LogInit:Display: Game Engine Initialized.
+[2017.07.28-10.22.11:767][  0]LogInit:Display: Starting Game.
+[2017.07.28-10.22.11:767][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCMenuMap?Name=Player
+[2017.07.28-10.22.11:767][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCMenuMap?Name=Player
+[2017.07.28-10.22.11:817][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.28-10.22.11:817][  0]LogMemory: Process Physical Memory: 801.79 MB used, 897.57 MB peak
+[2017.07.28-10.22.11:817][  0]LogMemory: Process Virtual Memory: 820.30 MB used, 869.26 MB peak
+[2017.07.28-10.22.11:817][  0]LogMemory: Physical Memory: 5649.68 MB used,  2422.08 MB free, 8071.77 MB total
+[2017.07.28-10.22.11:817][  0]LogMemory: Virtual Memory: 1424.93 MB used,  2422.08 MB free, 134217728.00 MB total
+[2017.07.28-10.22.11:817][  0]LogMemory: 
+[2017.07.28-10.22.11:817][  0]Allocator Stats for TBB: (not implemented)
+[2017.07.28-10.22.12:123][  0]LogAIModule: Creating AISystem for world MenuMap
+[2017.07.28-10.22.12:123][  0]LogLoad: Game class is 'BP_GameMode_Menu_C'
+[2017.07.28-10.22.12:125][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCMenuMap.MenuMap up for play (max tick rate 0) at 2017.07.28-12.22.12
+[2017.07.28-10.22.12:125][  0]LogWorld: Bringing up level for play took: 0.001312
+[2017.07.28-10.22.12:174][  0]LogLoad: Took 0.406819 seconds to LoadMap(/Temp/Autosaves/Game/Maps/UEDPCMenuMap)
+[2017.07.28-10.22.12:617][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:1).
+[2017.07.28-10.22.12:617][  0]LogLoad: (Engine Initialization) Total time: 34.40 seconds
+[2017.07.28-10.22.12:617][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.17 seconds
+[2017.07.28-10.22.12:618][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.28-10.22.12:618][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.28-10.22.12:639][  0]LogOcInput: OculusInput pre-init called
+[2017.07.28-10.22.12:639][  0]LogHMD: Starting GearVRController plugin
+[2017.07.28-10.22.18:057][117]LogInit: WinSock: I am Awesome-X1 (192.168.1.13:0)
+[2017.07.28-10.22.23:050][230]LogNet: Browse: 192.168.1.14//Game/Maps/MenuMap
+[2017.07.28-10.22.23:050][230]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.07.28-10.22.23:051][230]LogTemp:Display: ParseSettings for IpNetDriver_0
+[2017.07.28-10.22.23:051][230]LogTemp:Display: ParseSettings for PendingNetDriver
+[2017.07.28-10.22.23:051][230]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.07.28-10.22.23:053][230]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.07.28-10.22.23:053][230]LogNet: Game client on port 7777, rate 10000
+[2017.07.28-10.22.23:054][230]LogNetVersion: RTS 1.0.0.0, NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2665052696)
+[2017.07.28-10.22.23:054][230]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 192.168.1.14:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL
+[2017.07.28-10.22.23:097][231]LogHandshake: SendChallengeResponse. Timestamp: 57.181599, Cookie: 019041095145117110044031090124071042009209229248129152159184
+[2017.07.28-10.22.23:183][233]LogNet: Welcomed by server (Level: /Game/Maps/LobbyMap, Game: /Script/Engine.GameModeBase)
+[2017.07.28-10.22.23:230][233]LogLoad: LoadMap: 192.168.1.14//Game/Maps/LobbyMap?game=/Script/Engine.GameModeBase
+[2017.07.28-10.22.23:352][233]LogMemory: Platform Memory Stats for Windows
+[2017.07.28-10.22.23:352][233]LogMemory: Process Physical Memory: 946.78 MB used, 985.93 MB peak
+[2017.07.28-10.22.23:352][233]LogMemory: Process Virtual Memory: 925.55 MB used, 975.82 MB peak
+[2017.07.28-10.22.23:352][233]LogMemory: Physical Memory: 5704.16 MB used,  2367.61 MB free, 8071.77 MB total
+[2017.07.28-10.22.23:352][233]LogMemory: Virtual Memory: 1636.76 MB used,  2367.61 MB free, 134217728.00 MB total
+[2017.07.28-10.22.23:352][233]LogMemory: 
+[2017.07.28-10.22.23:352][233]Allocator Stats for TBB: (not implemented)
+[2017.07.28-10.22.23:355][233]LogAIModule: Creating AISystem for world LobbyMap
+[2017.07.28-10.22.23:356][233]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.07.28-10.22.23:358][233]LogWorld: Bringing World /Game/Maps/LobbyMap.LobbyMap up for play (max tick rate 0) at 2017.07.28-12.22.23
+[2017.07.28-10.22.23:358][233]LogWorld: Bringing up level for play took: 0.001112
+[2017.07.28-10.22.23:359][233]LogLoad: Took 0.129779 seconds to LoadMap(/Game/Maps/LobbyMap)
+[2017.07.28-10.22.30:157][356]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.07.28-10.22.36:675][466]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.07.28-10.22.45:666][580]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.07.28-10.22.46:182][581]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.07.28-10.22.47:195][583]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.07.28-10.22.47:762][584]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.07.28-10.22.51:219][592]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
