@@ -1,0 +1,1066 @@
+﻿Log file open, 07/29/17 13:39:19
+LogInit:Display: Running engine for game: RTS
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1224119339) SRandInit(-1224119339).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.083581
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.29-11.39.20:529][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.29-11.39.20:529][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.29-11.39.20:569][  0]LogInit: Computer: AWESOME-X1
+[2017.07.29-11.39.20:569][  0]LogInit: User: FuckingWIN8
+[2017.07.29-11.39.20:569][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.07.29-11.39.20:569][  0]LogInit: High frequency timer resolution =2.630630 MHz
+[2017.07.29-11.39.20:569][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.07.29-11.39.20:569][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.29-11.39.20:569][  0]LogMemory: Process Physical Memory: 273.59 MB used, 273.59 MB peak
+[2017.07.29-11.39.20:569][  0]LogMemory: Process Virtual Memory: 258.87 MB used, 258.87 MB peak
+[2017.07.29-11.39.20:569][  0]LogMemory: Physical Memory: 5263.64 MB used,  2808.13 MB free, 8071.77 MB total
+[2017.07.29-11.39.20:569][  0]LogMemory: Virtual Memory: 636.29 MB used,  2808.13 MB free, 134217728.00 MB total
+[2017.07.29-11.39.20:827][  0]LogInit: Using OS detected language (da-DK).
+[2017.07.29-11.39.20:827][  0]LogInit: Using OS detected locale (da-DK).
+[2017.07.29-11.39.20:892][  0]LogTextLocalizationManager: No localization for 'da-DK' exists, so 'en' will be used for the language.
+[2017.07.29-11.39.20:893][  0]LogTextLocalizationManager: No localization for 'da-DK' exists, so 'en' will be used for the locale.
+[2017.07.29-11.39.24:466][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.29-11.39.24:471][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.07.29-11.39.24:471][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.07.29-11.39.24:473][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.29-11.39.24:473][  0]LogD3D11RHI:       0/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.29-11.39.24:473][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.29-11.39.24:478][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.29-11.39.24:478][  0]LogD3D11RHI:     GPU DeviceId: 0xa16 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.29-11.39.24:478][  0]LogWindows: EnumDisplayDevices:
+[2017.07.29-11.39.24:478][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.07.29-11.39.24:478][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.07.29-11.39.24:479][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.07.29-11.39.24:479][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.07.29-11.39.24:479][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics Family
+[2017.07.29-11.39.24:479][  0]LogD3D11RHI:   Driver Version: 20.19.15.4531 (internal:20.19.15.4531, unified:20.19.15.4531)
+[2017.07.29-11.39.24:479][  0]LogD3D11RHI:      Driver Date: 9-29-2016
+[2017.07.29-11.39.24:479][  0]LogRHI: Texture pool is 795 MB (70% of 1136 MB)
+[2017.07.29-11.39.24:485][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.29-11.39.24:489][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.07.29-11.39.24:489][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Intermediate/Shaders/WorkingDirectory/11624/).
+[2017.07.29-11.39.24:489][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Fucking WIN8/AppData/Local/Temp/UnrealShaderWorkingDir/FD779DC44173A7BA715B9EBA4D7B89FD/'.
+[2017.07.29-11.39.24:489][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.29-11.39.27:176][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.29-11.39.27:240][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.29-11.39.27:306][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.29-11.39.27:371][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.29-11.39.27:444][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.29-11.39.27:503][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.29-11.39.27:575][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.29-11.39.27:639][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.29-11.39.27:700][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.29-11.39.27:758][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.29-11.39.27:823][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.29-11.39.27:884][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.29-11.39.27:945][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.29-11.39.28:004][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.29-11.39.28:065][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.29-11.39.28:187][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.29-11.39.28:187][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.29-11.39.28:236][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.29-11.39.28:345][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.29-11.39.28:378][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.29-11.39.28:433][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.29-11.39.28:487][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.29-11.39.28:558][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.29-11.39.28:622][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.29-11.39.28:622][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.29-11.39.29:353][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.29-11.39.29:740][  0]LogDerivedDataCache: Loaded boot cache 0.39s 90MB C:/Users/Fucking WIN8/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.29-11.39.29:740][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Fucking WIN8/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.29-11.39.29:740][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.29-11.39.29:740][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.29-11.39.29:740][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.29-11.39.29:740][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.29-11.39.29:771][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.29-11.39.29:783][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Fucking WIN8/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.29-11.39.29:796][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.29-11.39.29:796][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.29-11.39.29:811][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.29-11.39.29:811][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.29-11.39.30:964][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.29-11.39.31:049][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.29-11.39.31:286][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.29-11.39.31:343][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.29-11.39.31:402][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.29-11.39.31:402][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.29-11.39.31:402][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.29-11.39.32:156][  0]LogNetVersion: RTS , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2270150060)
+[2017.07.29-11.39.32:228][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2017.07.29-11.39.32:286][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.025728 seconds
+[2017.07.29-11.39.32:293][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.29-11.39.32:293][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.07.29-11.39.32:293][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.29-11.39.38:337][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.29-11.39.38:382][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.29-11.39.39:084][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.29-11.39.39:596][  0]SourceControl: Info Source control is disabled
+[2017.07.29-11.39.39:692][  0]SourceControl: Info Source control is disabled
+[2017.07.29-11.39.39:764][  0]SourceControl: Info Source control is disabled
+[2017.07.29-11.39.39:827][  0]SourceControl: Info Source control is disabled
+[2017.07.29-11.39.40:776][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.29-11.39.41:512][  0]LogEngine: Initializing Engine...
+[2017.07.29-11.39.41:513][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.29-11.39.41:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.29-11.39.41:790][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.29-11.39.42:025][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.29-11.39.42:039][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-11.39.42:072][  0]LogInit: FAudioDevice initialized.
+[2017.07.29-11.39.42:142][  0]LogDerivedDataCache: Saved boot cache 0.07s 90MB C:/Users/Fucking WIN8/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.29-11.39.42:159][  0]LogInit: Texture streaming: Enabled
+[2017.07.29-11.39.42:286][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.29-11.39.42:687][  0]LogInit: Transaction tracking system initialized
+[2017.07.29-11.39.43:103][  0]BlueprintLog: New page: Editor Load
+[2017.07.29-11.39.44:328][  0]LocalizationService: Info Localization service is disabled
+[2017.07.29-11.39.45:520][  0]LogConsoleResponse:Display: 
+[2017.07.29-11.39.45:818][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.29-11.39.45:818][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.29-11.39.46:566][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/' took 0.02s
+[2017.07.29-11.39.47:270][  0]SourceControl: Info Source control is disabled
+[2017.07.29-11.39.47:270][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/Maps/World_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.29-11.39.47:271][  0]LightingResults: New page: Lighting Build
+[2017.07.29-11.39.47:318][  0]MapCheck: New page: Map Check
+[2017.07.29-11.39.47:318][  0]LightingResults: New page: Lighting Build
+[2017.07.29-11.39.48:064][  0]LogAIModule: Creating AISystem for world World_01
+[2017.07.29-11.39.48:071][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.29-11.39.48:120][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.29-11.39.48:190][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.899ms to complete.
+[2017.07.29-11.39.48:190][  0]LogFileHelpers: Loading map 'World_01' took 0.919
+[2017.07.29-11.39.48:438][  0]LogCollectionManager: Loaded 0 collections in 0.002509 seconds
+[2017.07.29-11.39.48:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Saved/Collections/' took 0.01s
+[2017.07.29-11.39.48:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/Developers/FuckingWIN8/Collections/' took 0.01s
+[2017.07.29-11.39.48:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/Collections/' took 0.01s
+[2017.07.29-11.39.48:527][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2017.07.29-11.39.48:542][  0]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 2329 classes and 491 folders.
+[2017.07.29-11.39.48:637][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.07.29-11.39.49:098][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.07.29-11.39.49:154][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.07.29-11.39.49:255][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.29-11.39.50:419][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.07.29-11.39.50:469][  0]LogSlate: Took 0.014972 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.29-11.39.50:478][  0]LogSlate: Took 0.006532 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.29-11.39.50:505][  0]LogSlate: Took 0.012837 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.29-11.39.50:697][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.RTS
+[2017.07.29-11.39.50:697][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.29-11.39.50:697][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.07.29-11.39.50:697][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.29-11.39.50:697][  0]LogTemp: BranchPath = AWESOME-X1/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = AWESOME-X1/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.07.29-11.39.50:697][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Fucking WIN8\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.07.29-11.39.50:697][  0]LogRenderer: Reallocating scene render targets to support 488x340 NumSamples 1 (Frame:1).
+[2017.07.29-11.39.51:051][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.29-11.39.51:138][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.07.29-11.39.51:138][  0]LogLoad: (Engine Initialization) Total time: 33.46 seconds
+[2017.07.29-11.39.51:138][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
+[2017.07.29-11.39.51:138][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.29-11.39.51:138][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.29-11.39.51:477][  0]LogOcInput: OculusInput pre-init called
+[2017.07.29-11.39.51:477][  0]LogHMD: Starting GearVRController plugin
+[2017.07.29-11.39.51:495][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.07.29-11.39.51:531][  0]LogSlate: Took 0.006365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.29-11.39.51:822][  1]LogAssetRegistry: Asset discovery search completed in 19.6170 seconds
+[2017.07.29-11.39.51:827][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.29-11.39.51:827][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000113 seconds (updated 0 objects)
+[2017.07.29-11.39.52:480][  3]LogSlate: Took 0.000500 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.29-11.39.57:521][147]LogRenderer: Reallocating scene render targets to support 492x340 NumSamples 1 (Frame:131).
+[2017.07.29-11.39.57:561][148]LogRenderer: Reallocating scene render targets to support 508x340 NumSamples 1 (Frame:133).
+[2017.07.29-11.39.57:608][149]LogRenderer: Reallocating scene render targets to support 532x340 NumSamples 1 (Frame:135).
+[2017.07.29-11.39.57:669][150]LogRenderer: Reallocating scene render targets to support 564x340 NumSamples 1 (Frame:137).
+[2017.07.29-11.39.57:719][151]LogRenderer: Reallocating scene render targets to support 588x340 NumSamples 1 (Frame:139).
+[2017.07.29-11.39.57:773][152]LogRenderer: Reallocating scene render targets to support 592x340 NumSamples 1 (Frame:141).
+[2017.07.29-11.39.57:816][153]LogRenderer: Reallocating scene render targets to support 596x340 NumSamples 1 (Frame:143).
+[2017.07.29-11.40.08:311][509]LogSlate: Took 0.000513 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.29-11.40.09:310][509]LogRenderer: Reallocating scene render targets to support 952x564 NumSamples 1 (Frame:1).
+[2017.07.29-11.40.34:232][856]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/3D Objekter/House/housedone2.fbx)
+[2017.07.29-11.40.34:259][856]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.29-11.40.34:259][856]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2017.07.29-11.40.34:259][856]LogFbx: ItemName: Geometry, ItemCount : 52
+[2017.07.29-11.40.34:259][856]LogFbx: ItemName: Model, ItemCount : 54
+[2017.07.29-11.40.34:259][856]LogFbx: ItemName: Material, ItemCount : 39
+[2017.07.29-11.40.34:259][856]LogFbx: ItemName: Texture, ItemCount : 2
+[2017.07.29-11.40.34:259][856]LogFbx: ItemName: Video, ItemCount : 2
+[2017.07.29-11.40.34:269][856]LogFbx: Loading FBX Scene from ../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/3D Objekter/House/housedone2.fbx
+[2017.07.29-11.40.34:320][856]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.29-11.40.36:968][856]LogFbx: Loading FBX Scene from ../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/3D Objekter/House/housedone2.fbx
+[2017.07.29-11.40.37:007][856]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.29-11.40.37:015][856]LogLinker: Can't find file '/Game/Material_059'
+[2017.07.29-11.40.37:015][856]LogLinker: Can't find file '/Game/Material_059'
+[2017.07.29-11.40.37:024][856]LogMaterial: Missing cached shader map for material Material_059, compiling. 
+[2017.07.29-11.40.37:064][856]LogFbx:Warning: Triangulating static mesh Cube.051
+[2017.07.29-11.40.37:073][856]LogStaticMesh: Building static mesh housedone2_Cube_051...
+[2017.07.29-11.40.37:078][856]LogStaticMesh: Built static mesh [0.01s] /Game/housedone2_Cube_051.housedone2_Cube_051
+[2017.07.29-11.40.37:079][856]LogStaticMesh:Warning: housedone2_Cube_051 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:090][856]LogLinker: Can't find file '/Game/Material_058'
+[2017.07.29-11.40.37:090][856]LogLinker: Can't find file '/Game/Material_058'
+[2017.07.29-11.40.37:097][856]LogMaterial: Missing cached shader map for material Material_058, compiling. 
+[2017.07.29-11.40.37:127][856]LogFbx:Warning: Triangulating static mesh Cube.049
+[2017.07.29-11.40.37:130][856]LogStaticMesh: Building static mesh housedone2_Cube_049...
+[2017.07.29-11.40.37:131][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_049.housedone2_Cube_049
+[2017.07.29-11.40.37:132][856]LogStaticMesh:Warning: housedone2_Cube_049 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:141][856]LogFbx:Warning: Triangulating static mesh Cube.048
+[2017.07.29-11.40.37:155][856]LogStaticMesh: Building static mesh housedone2_Cube_048...
+[2017.07.29-11.40.37:156][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_048.housedone2_Cube_048
+[2017.07.29-11.40.37:156][856]LogStaticMesh:Warning: housedone2_Cube_048 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:169][856]LogLinker: Can't find file '/Game/Material_007'
+[2017.07.29-11.40.37:169][856]LogLinker: Can't find file '/Game/Material_007'
+[2017.07.29-11.40.37:177][856]LogMaterial: Missing cached shader map for material Material_007, compiling. 
+[2017.07.29-11.40.37:211][856]LogFbx:Warning: Triangulating static mesh Cube.042
+[2017.07.29-11.40.37:222][856]LogStaticMesh: Building static mesh housedone2_Cube_042...
+[2017.07.29-11.40.37:222][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_042.housedone2_Cube_042
+[2017.07.29-11.40.37:223][856]LogStaticMesh:Warning: housedone2_Cube_042 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:232][856]LogLinker: Can't find file '/Game/Material_026'
+[2017.07.29-11.40.37:232][856]LogLinker: Can't find file '/Game/Material_026'
+[2017.07.29-11.40.37:241][856]LogMaterial: Missing cached shader map for material Material_026, compiling. 
+[2017.07.29-11.40.37:276][856]LogFbx:Warning: Triangulating static mesh Cube.014
+[2017.07.29-11.40.37:298][856]LogStaticMesh: Building static mesh housedone2_Cube_014...
+[2017.07.29-11.40.37:300][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_014.housedone2_Cube_014
+[2017.07.29-11.40.37:301][856]LogStaticMesh:Warning: housedone2_Cube_014 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:309][856]LogFbx:Warning: Triangulating static mesh Cube.013
+[2017.07.29-11.40.37:312][856]LogStaticMesh: Building static mesh housedone2_Cube_013...
+[2017.07.29-11.40.37:312][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_013.housedone2_Cube_013
+[2017.07.29-11.40.37:313][856]LogStaticMesh:Warning: housedone2_Cube_013 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:321][856]LogFbx:Warning: Triangulating static mesh Cube.009
+[2017.07.29-11.40.37:324][856]LogStaticMesh: Building static mesh housedone2_Cube_009...
+[2017.07.29-11.40.37:325][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_009.housedone2_Cube_009
+[2017.07.29-11.40.37:325][856]LogStaticMesh:Warning: housedone2_Cube_009 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:335][856]LogLinker: Can't find file '/Game/Material_022'
+[2017.07.29-11.40.37:335][856]LogLinker: Can't find file '/Game/Material_022'
+[2017.07.29-11.40.37:346][856]LogMaterial: Missing cached shader map for material Material_022, compiling. 
+[2017.07.29-11.40.37:380][856]LogFbx:Warning: Triangulating static mesh Cube.008
+[2017.07.29-11.40.37:385][856]LogStaticMesh: Building static mesh housedone2_Cube_008...
+[2017.07.29-11.40.37:386][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_008.housedone2_Cube_008
+[2017.07.29-11.40.37:387][856]LogStaticMesh:Warning: housedone2_Cube_008 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:395][856]LogFbx:Warning: Triangulating static mesh Cube.002
+[2017.07.29-11.40.37:422][856]LogStaticMesh: Building static mesh housedone2_Cube_002...
+[2017.07.29-11.40.37:424][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_002.housedone2_Cube_002
+[2017.07.29-11.40.37:425][856]LogStaticMesh:Warning: housedone2_Cube_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:435][856]LogLinker: Can't find file '/Game/Material'
+[2017.07.29-11.40.37:435][856]LogLinker: Can't find file '/Game/Material'
+[2017.07.29-11.40.37:442][856]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.07.29-11.40.37:471][856]LogFbx:Warning: Triangulating static mesh Cube.023
+[2017.07.29-11.40.37:557][856]LogStaticMesh: Building static mesh housedone2_Cube_023...
+[2017.07.29-11.40.37:564][856]LogStaticMesh: Built static mesh [0.01s] /Game/housedone2_Cube_023.housedone2_Cube_023
+[2017.07.29-11.40.37:566][856]LogStaticMesh:Warning: housedone2_Cube_023 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:579][856]LogFbx:Warning: Triangulating static mesh Cube.004
+[2017.07.29-11.40.37:592][856]LogStaticMesh: Building static mesh housedone2_Cube_004...
+[2017.07.29-11.40.37:593][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_004.housedone2_Cube_004
+[2017.07.29-11.40.37:594][856]LogStaticMesh:Warning: housedone2_Cube_004 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:603][856]LogFbx:Warning: Triangulating static mesh Cube.007
+[2017.07.29-11.40.37:619][856]LogStaticMesh: Building static mesh housedone2_Cube_007...
+[2017.07.29-11.40.37:620][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_007.housedone2_Cube_007
+[2017.07.29-11.40.37:621][856]LogStaticMesh:Warning: housedone2_Cube_007 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:629][856]LogFbx:Warning: Triangulating static mesh Cube
+[2017.07.29-11.40.37:633][856]LogStaticMesh: Building static mesh housedone2_Cube...
+[2017.07.29-11.40.37:633][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube.housedone2_Cube
+[2017.07.29-11.40.37:634][856]LogStaticMesh:Warning: housedone2_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:643][856]LogLinker: Can't find file '/Game/Material_001'
+[2017.07.29-11.40.37:643][856]LogLinker: Can't find file '/Game/Material_001'
+[2017.07.29-11.40.37:652][856]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2017.07.29-11.40.37:682][856]LogFbx:Warning: Triangulating static mesh Cube.001
+[2017.07.29-11.40.37:687][856]LogStaticMesh: Building static mesh housedone2_Cube_001...
+[2017.07.29-11.40.37:691][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_001.housedone2_Cube_001
+[2017.07.29-11.40.37:701][856]LogFbx:Warning: Triangulating static mesh Cube.003
+[2017.07.29-11.40.37:705][856]LogStaticMesh: Building static mesh housedone2_Cube_003...
+[2017.07.29-11.40.37:706][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_003.housedone2_Cube_003
+[2017.07.29-11.40.37:706][856]LogStaticMesh:Warning: housedone2_Cube_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:715][856]LogFbx:Warning: Triangulating static mesh Cube.006
+[2017.07.29-11.40.37:738][856]LogStaticMesh: Building static mesh housedone2_Cube_006...
+[2017.07.29-11.40.37:740][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_006.housedone2_Cube_006
+[2017.07.29-11.40.37:740][856]LogStaticMesh:Warning: housedone2_Cube_006 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:749][856]LogLinker: Can't find file '/Game/Material_002'
+[2017.07.29-11.40.37:749][856]LogLinker: Can't find file '/Game/Material_002'
+[2017.07.29-11.40.37:757][856]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2017.07.29-11.40.37:792][856]LogFbx:Warning: Triangulating static mesh Cube.005
+[2017.07.29-11.40.37:797][856]LogStaticMesh: Building static mesh housedone2_Cube_005...
+[2017.07.29-11.40.37:803][856]LogStaticMesh: Built static mesh [0.01s] /Game/housedone2_Cube_005.housedone2_Cube_005
+[2017.07.29-11.40.37:812][856]LogLinker: Can't find file '/Game/Material_021'
+[2017.07.29-11.40.37:812][856]LogLinker: Can't find file '/Game/Material_021'
+[2017.07.29-11.40.37:821][856]LogMaterial: Missing cached shader map for material Material_021, compiling. 
+[2017.07.29-11.40.37:861][856]LogFbx:Warning: Triangulating static mesh Cube.021
+[2017.07.29-11.40.37:870][856]LogStaticMesh: Building static mesh housedone2_Cube_021...
+[2017.07.29-11.40.37:870][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_021.housedone2_Cube_021
+[2017.07.29-11.40.37:871][856]LogStaticMesh:Warning: housedone2_Cube_021 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:880][856]LogFbx:Warning: Triangulating static mesh Cube.010
+[2017.07.29-11.40.37:885][856]LogStaticMesh: Building static mesh housedone2_Cube_010...
+[2017.07.29-11.40.37:886][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_010.housedone2_Cube_010
+[2017.07.29-11.40.37:886][856]LogStaticMesh:Warning: housedone2_Cube_010 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:895][856]LogFbx:Warning: Triangulating static mesh Cube.011
+[2017.07.29-11.40.37:899][856]LogStaticMesh: Building static mesh housedone2_Cube_011...
+[2017.07.29-11.40.37:899][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_011.housedone2_Cube_011
+[2017.07.29-11.40.37:900][856]LogStaticMesh:Warning: housedone2_Cube_011 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:909][856]LogFbx:Warning: Triangulating static mesh Cube.012
+[2017.07.29-11.40.37:912][856]LogStaticMesh: Building static mesh housedone2_Cube_012...
+[2017.07.29-11.40.37:913][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_012.housedone2_Cube_012
+[2017.07.29-11.40.37:913][856]LogStaticMesh:Warning: housedone2_Cube_012 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:922][856]LogLinker: Can't find file '/Game/Material_027'
+[2017.07.29-11.40.37:922][856]LogLinker: Can't find file '/Game/Material_027'
+[2017.07.29-11.40.37:930][856]LogMaterial: Missing cached shader map for material Material_027, compiling. 
+[2017.07.29-11.40.37:965][856]LogFbx:Warning: Triangulating static mesh Cube.015
+[2017.07.29-11.40.37:971][856]LogStaticMesh: Building static mesh housedone2_Cube_015...
+[2017.07.29-11.40.37:971][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_015.housedone2_Cube_015
+[2017.07.29-11.40.37:972][856]LogStaticMesh:Warning: housedone2_Cube_015 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.37:981][856]LogLinker: Can't find file '/Game/Material_028'
+[2017.07.29-11.40.37:981][856]LogLinker: Can't find file '/Game/Material_028'
+[2017.07.29-11.40.37:990][856]LogMaterial: Missing cached shader map for material Material_028, compiling. 
+[2017.07.29-11.40.38:024][856]LogFbx:Warning: Triangulating static mesh Cube.016
+[2017.07.29-11.40.38:029][856]LogStaticMesh: Building static mesh housedone2_Cube_016...
+[2017.07.29-11.40.38:029][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_016.housedone2_Cube_016
+[2017.07.29-11.40.38:030][856]LogStaticMesh:Warning: housedone2_Cube_016 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.38:040][856]LogLinker: Can't find file '/Game/Material_029'
+[2017.07.29-11.40.38:040][856]LogLinker: Can't find file '/Game/Material_029'
+[2017.07.29-11.40.38:048][856]LogMaterial: Missing cached shader map for material Material_029, compiling. 
+[2017.07.29-11.40.38:085][856]LogFbx:Warning: Triangulating static mesh Cube.017
+[2017.07.29-11.40.38:095][856]LogStaticMesh: Building static mesh housedone2_Cube_017...
+[2017.07.29-11.40.38:095][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_017.housedone2_Cube_017
+[2017.07.29-11.40.38:096][856]LogStaticMesh:Warning: housedone2_Cube_017 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.38:106][856]LogLinker: Can't find file '/Game/Material_030'
+[2017.07.29-11.40.38:106][856]LogLinker: Can't find file '/Game/Material_030'
+[2017.07.29-11.40.38:118][856]LogMaterial: Missing cached shader map for material Material_030, compiling. 
+[2017.07.29-11.40.38:162][856]LogFbx:Warning: Triangulating static mesh Cube.018
+[2017.07.29-11.40.38:165][856]LogStaticMesh: Building static mesh housedone2_Cube_018...
+[2017.07.29-11.40.38:165][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_018.housedone2_Cube_018
+[2017.07.29-11.40.38:166][856]LogStaticMesh:Warning: housedone2_Cube_018 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.38:175][856]LogLinker: Can't find file '/Game/Material_031'
+[2017.07.29-11.40.38:175][856]LogLinker: Can't find file '/Game/Material_031'
+[2017.07.29-11.40.38:189][856]LogMaterial: Missing cached shader map for material Material_031, compiling. 
+[2017.07.29-11.40.38:224][856]LogFbx:Warning: Triangulating static mesh Cube.019
+[2017.07.29-11.40.38:231][856]LogStaticMesh: Building static mesh housedone2_Cube_019...
+[2017.07.29-11.40.38:231][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_019.housedone2_Cube_019
+[2017.07.29-11.40.38:233][856]LogStaticMesh:Warning: housedone2_Cube_019 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.38:242][856]LogLinker: Can't find file '/Game/Material_032'
+[2017.07.29-11.40.38:243][856]LogLinker: Can't find file '/Game/Material_032'
+[2017.07.29-11.40.38:251][856]LogMaterial: Missing cached shader map for material Material_032, compiling. 
+[2017.07.29-11.40.38:290][856]LogFbx:Warning: Triangulating static mesh Cube.020
+[2017.07.29-11.40.38:294][856]LogStaticMesh: Building static mesh housedone2_Cube_020...
+[2017.07.29-11.40.38:294][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_020.housedone2_Cube_020
+[2017.07.29-11.40.38:295][856]LogStaticMesh:Warning: housedone2_Cube_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.38:322][856]LogLinker: Can't find file '/Game/Material_033'
+[2017.07.29-11.40.38:323][856]LogLinker: Can't find file '/Game/Material_033'
+[2017.07.29-11.40.38:334][856]LogMaterial: Missing cached shader map for material Material_033, compiling. 
+[2017.07.29-11.40.38:374][856]LogFbx:Warning: Triangulating static mesh Cube.022
+[2017.07.29-11.40.38:378][856]LogStaticMesh: Building static mesh housedone2_Cube_022...
+[2017.07.29-11.40.38:378][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_022.housedone2_Cube_022
+[2017.07.29-11.40.38:379][856]LogStaticMesh:Warning: housedone2_Cube_022 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.38:387][856]LogLinker: Can't find file '/Game/Material_034'
+[2017.07.29-11.40.38:387][856]LogLinker: Can't find file '/Game/Material_034'
+[2017.07.29-11.40.38:401][856]LogMaterial: Missing cached shader map for material Material_034, compiling. 
+[2017.07.29-11.40.38:450][856]LogFbx:Warning: Triangulating static mesh Cube.024
+[2017.07.29-11.40.38:457][856]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.29-11.40.38:465][856]LogStaticMesh: Building static mesh housedone2_Cube_024...
+[2017.07.29-11.40.38:465][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_024.housedone2_Cube_024
+[2017.07.29-11.40.38:466][856]LogStaticMesh:Warning: housedone2_Cube_024 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.38:478][856]LogLinker: Can't find file '/Game/Material_035'
+[2017.07.29-11.40.38:478][856]LogLinker: Can't find file '/Game/Material_035'
+[2017.07.29-11.40.38:489][856]LogMaterial: Missing cached shader map for material Material_035, compiling. 
+[2017.07.29-11.40.38:537][856]LogFbx:Warning: Triangulating static mesh Cube.025
+[2017.07.29-11.40.38:548][856]LogStaticMesh: Building static mesh housedone2_Cube_025...
+[2017.07.29-11.40.38:548][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_025.housedone2_Cube_025
+[2017.07.29-11.40.38:548][856]LogStaticMesh:Warning: housedone2_Cube_025 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.38:560][856]LogLinker: Can't find file '/Game/Material_036'
+[2017.07.29-11.40.38:561][856]LogLinker: Can't find file '/Game/Material_036'
+[2017.07.29-11.40.38:567][856]LogMaterial: Missing cached shader map for material Material_036, compiling. 
+[2017.07.29-11.40.38:615][856]LogFbx:Warning: Triangulating static mesh Cube.026
+[2017.07.29-11.40.38:620][856]LogStaticMesh: Building static mesh housedone2_Cube_026...
+[2017.07.29-11.40.38:620][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_026.housedone2_Cube_026
+[2017.07.29-11.40.38:621][856]LogStaticMesh:Warning: housedone2_Cube_026 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.38:632][856]LogLinker: Can't find file '/Game/Material_037'
+[2017.07.29-11.40.38:632][856]LogLinker: Can't find file '/Game/Material_037'
+[2017.07.29-11.40.38:642][856]LogMaterial: Missing cached shader map for material Material_037, compiling. 
+[2017.07.29-11.40.38:685][856]LogFbx:Warning: Triangulating static mesh Cube.027
+[2017.07.29-11.40.38:700][856]LogStaticMesh: Building static mesh housedone2_Cube_027...
+[2017.07.29-11.40.38:701][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_027.housedone2_Cube_027
+[2017.07.29-11.40.38:702][856]LogStaticMesh:Warning: housedone2_Cube_027 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.38:711][856]LogLinker: Can't find file '/Game/Material_038'
+[2017.07.29-11.40.38:711][856]LogLinker: Can't find file '/Game/Material_038'
+[2017.07.29-11.40.38:720][856]LogMaterial: Missing cached shader map for material Material_038, compiling. 
+[2017.07.29-11.40.38:760][856]LogFbx:Warning: Triangulating static mesh Cube.028
+[2017.07.29-11.40.38:765][856]LogStaticMesh: Building static mesh housedone2_Cube_028...
+[2017.07.29-11.40.38:766][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_028.housedone2_Cube_028
+[2017.07.29-11.40.38:766][856]LogStaticMesh:Warning: housedone2_Cube_028 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.38:775][856]LogLinker: Can't find file '/Game/Material_039'
+[2017.07.29-11.40.38:776][856]LogLinker: Can't find file '/Game/Material_039'
+[2017.07.29-11.40.38:786][856]LogMaterial: Missing cached shader map for material Material_039, compiling. 
+[2017.07.29-11.40.38:820][856]LogFbx:Warning: Triangulating static mesh Cube.029
+[2017.07.29-11.40.38:825][856]LogStaticMesh: Building static mesh housedone2_Cube_029...
+[2017.07.29-11.40.38:826][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_029.housedone2_Cube_029
+[2017.07.29-11.40.38:826][856]LogStaticMesh:Warning: housedone2_Cube_029 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.38:835][856]LogLinker: Can't find file '/Game/Material_040'
+[2017.07.29-11.40.38:835][856]LogLinker: Can't find file '/Game/Material_040'
+[2017.07.29-11.40.38:847][856]LogMaterial: Missing cached shader map for material Material_040, compiling. 
+[2017.07.29-11.40.38:887][856]LogFbx:Warning: Triangulating static mesh Cube.030
+[2017.07.29-11.40.38:895][856]LogStaticMesh: Building static mesh housedone2_Cube_030...
+[2017.07.29-11.40.38:896][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_030.housedone2_Cube_030
+[2017.07.29-11.40.38:896][856]LogStaticMesh:Warning: housedone2_Cube_030 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.38:906][856]LogLinker: Can't find file '/Game/Material_041'
+[2017.07.29-11.40.38:907][856]LogLinker: Can't find file '/Game/Material_041'
+[2017.07.29-11.40.38:916][856]LogMaterial: Missing cached shader map for material Material_041, compiling. 
+[2017.07.29-11.40.38:950][856]LogFbx:Warning: Triangulating static mesh Cube.031
+[2017.07.29-11.40.38:954][856]LogStaticMesh: Building static mesh housedone2_Cube_031...
+[2017.07.29-11.40.38:954][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_031.housedone2_Cube_031
+[2017.07.29-11.40.38:954][856]LogStaticMesh:Warning: housedone2_Cube_031 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.38:969][856]LogLinker: Can't find file '/Game/Material_042'
+[2017.07.29-11.40.38:969][856]LogLinker: Can't find file '/Game/Material_042'
+[2017.07.29-11.40.38:978][856]LogMaterial: Missing cached shader map for material Material_042, compiling. 
+[2017.07.29-11.40.39:012][856]LogFbx:Warning: Triangulating static mesh Cube.032
+[2017.07.29-11.40.39:016][856]LogStaticMesh: Building static mesh housedone2_Cube_032...
+[2017.07.29-11.40.39:017][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_032.housedone2_Cube_032
+[2017.07.29-11.40.39:017][856]LogStaticMesh:Warning: housedone2_Cube_032 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.39:027][856]LogLinker: Can't find file '/Game/Material_043'
+[2017.07.29-11.40.39:027][856]LogLinker: Can't find file '/Game/Material_043'
+[2017.07.29-11.40.39:036][856]LogMaterial: Missing cached shader map for material Material_043, compiling. 
+[2017.07.29-11.40.39:085][856]LogFbx:Warning: Triangulating static mesh Cube.033
+[2017.07.29-11.40.39:088][856]LogStaticMesh: Building static mesh housedone2_Cube_033...
+[2017.07.29-11.40.39:089][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_033.housedone2_Cube_033
+[2017.07.29-11.40.39:089][856]LogStaticMesh:Warning: housedone2_Cube_033 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.39:100][856]LogLinker: Can't find file '/Game/Material_044'
+[2017.07.29-11.40.39:100][856]LogLinker: Can't find file '/Game/Material_044'
+[2017.07.29-11.40.39:108][856]LogMaterial: Missing cached shader map for material Material_044, compiling. 
+[2017.07.29-11.40.39:143][856]LogFbx:Warning: Triangulating static mesh Cube.034
+[2017.07.29-11.40.39:150][856]LogStaticMesh: Building static mesh housedone2_Cube_034...
+[2017.07.29-11.40.39:150][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_034.housedone2_Cube_034
+[2017.07.29-11.40.39:151][856]LogStaticMesh:Warning: housedone2_Cube_034 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.39:160][856]LogLinker: Can't find file '/Game/Material_045'
+[2017.07.29-11.40.39:160][856]LogLinker: Can't find file '/Game/Material_045'
+[2017.07.29-11.40.39:173][856]LogMaterial: Missing cached shader map for material Material_045, compiling. 
+[2017.07.29-11.40.39:217][856]LogFbx:Warning: Triangulating static mesh Cube.035
+[2017.07.29-11.40.39:221][856]LogStaticMesh: Building static mesh housedone2_Cube_035...
+[2017.07.29-11.40.39:222][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_035.housedone2_Cube_035
+[2017.07.29-11.40.39:222][856]LogStaticMesh:Warning: housedone2_Cube_035 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.39:231][856]LogLinker: Can't find file '/Game/Material_046'
+[2017.07.29-11.40.39:231][856]LogLinker: Can't find file '/Game/Material_046'
+[2017.07.29-11.40.39:241][856]LogMaterial: Missing cached shader map for material Material_046, compiling. 
+[2017.07.29-11.40.39:278][856]LogFbx:Warning: Triangulating static mesh Cube.036
+[2017.07.29-11.40.39:281][856]LogStaticMesh: Building static mesh housedone2_Cube_036...
+[2017.07.29-11.40.39:282][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_036.housedone2_Cube_036
+[2017.07.29-11.40.39:282][856]LogStaticMesh:Warning: housedone2_Cube_036 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.39:293][856]LogLinker: Can't find file '/Game/Material_047'
+[2017.07.29-11.40.39:293][856]LogLinker: Can't find file '/Game/Material_047'
+[2017.07.29-11.40.39:304][856]LogMaterial: Missing cached shader map for material Material_047, compiling. 
+[2017.07.29-11.40.39:351][856]LogFbx:Warning: Triangulating static mesh Cube.037
+[2017.07.29-11.40.39:357][856]LogStaticMesh: Building static mesh housedone2_Cube_037...
+[2017.07.29-11.40.39:357][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_037.housedone2_Cube_037
+[2017.07.29-11.40.39:358][856]LogStaticMesh:Warning: housedone2_Cube_037 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.39:374][856]LogLinker: Can't find file '/Game/Material_048'
+[2017.07.29-11.40.39:374][856]LogLinker: Can't find file '/Game/Material_048'
+[2017.07.29-11.40.39:386][856]LogMaterial: Missing cached shader map for material Material_048, compiling. 
+[2017.07.29-11.40.39:432][856]LogFbx:Warning: Triangulating static mesh Cube.038
+[2017.07.29-11.40.39:436][856]LogStaticMesh: Building static mesh housedone2_Cube_038...
+[2017.07.29-11.40.39:436][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_038.housedone2_Cube_038
+[2017.07.29-11.40.39:437][856]LogStaticMesh:Warning: housedone2_Cube_038 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.39:444][856]LogLinker: Can't find file '/Game/Material_049'
+[2017.07.29-11.40.39:445][856]LogLinker: Can't find file '/Game/Material_049'
+[2017.07.29-11.40.39:453][856]LogMaterial: Missing cached shader map for material Material_049, compiling. 
+[2017.07.29-11.40.39:504][856]LogFbx:Warning: Triangulating static mesh Cube.039
+[2017.07.29-11.40.39:507][856]LogStaticMesh: Building static mesh housedone2_Cube_039...
+[2017.07.29-11.40.39:512][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_039.housedone2_Cube_039
+[2017.07.29-11.40.39:512][856]LogStaticMesh:Warning: housedone2_Cube_039 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.39:522][856]LogLinker: Can't find file '/Game/Material_050'
+[2017.07.29-11.40.39:522][856]LogLinker: Can't find file '/Game/Material_050'
+[2017.07.29-11.40.39:529][856]LogMaterial: Missing cached shader map for material Material_050, compiling. 
+[2017.07.29-11.40.39:567][856]LogFbx:Warning: Triangulating static mesh Cube.040
+[2017.07.29-11.40.39:572][856]LogStaticMesh: Building static mesh housedone2_Cube_040...
+[2017.07.29-11.40.39:572][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_040.housedone2_Cube_040
+[2017.07.29-11.40.39:573][856]LogStaticMesh:Warning: housedone2_Cube_040 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.39:602][856]LogLinker: Can't find file '/Game/Material_051'
+[2017.07.29-11.40.39:602][856]LogLinker: Can't find file '/Game/Material_051'
+[2017.07.29-11.40.39:620][856]LogMaterial: Missing cached shader map for material Material_051, compiling. 
+[2017.07.29-11.40.39:659][856]LogFbx:Warning: Triangulating static mesh Cube.041
+[2017.07.29-11.40.39:667][856]LogStaticMesh: Building static mesh housedone2_Cube_041...
+[2017.07.29-11.40.39:667][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_041.housedone2_Cube_041
+[2017.07.29-11.40.39:668][856]LogStaticMesh:Warning: housedone2_Cube_041 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.39:683][856]LogLinker: Can't find file '/Game/Material_052'
+[2017.07.29-11.40.39:684][856]LogLinker: Can't find file '/Game/Material_052'
+[2017.07.29-11.40.39:692][856]LogMaterial: Missing cached shader map for material Material_052, compiling. 
+[2017.07.29-11.40.39:731][856]LogFbx:Warning: Triangulating static mesh Cube.044
+[2017.07.29-11.40.39:735][856]LogStaticMesh: Building static mesh housedone2_Cube_044...
+[2017.07.29-11.40.39:736][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_044.housedone2_Cube_044
+[2017.07.29-11.40.39:736][856]LogStaticMesh:Warning: housedone2_Cube_044 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.39:744][856]LogLinker: Can't find file '/Game/Material_053'
+[2017.07.29-11.40.39:744][856]LogLinker: Can't find file '/Game/Material_053'
+[2017.07.29-11.40.39:751][856]LogMaterial: Missing cached shader map for material Material_053, compiling. 
+[2017.07.29-11.40.39:791][856]LogFbx:Warning: Triangulating static mesh Cube.043
+[2017.07.29-11.40.39:803][856]LogStaticMesh: Building static mesh housedone2_Cube_043...
+[2017.07.29-11.40.39:803][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_043.housedone2_Cube_043
+[2017.07.29-11.40.39:804][856]LogStaticMesh:Warning: housedone2_Cube_043 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.39:812][856]LogLinker: Can't find file '/Game/Material_054'
+[2017.07.29-11.40.39:813][856]LogLinker: Can't find file '/Game/Material_054'
+[2017.07.29-11.40.39:823][856]LogMaterial: Missing cached shader map for material Material_054, compiling. 
+[2017.07.29-11.40.39:862][856]LogFbx:Warning: Triangulating static mesh Cube.045
+[2017.07.29-11.40.39:865][856]LogStaticMesh: Building static mesh housedone2_Cube_045...
+[2017.07.29-11.40.39:865][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_045.housedone2_Cube_045
+[2017.07.29-11.40.39:866][856]LogStaticMesh:Warning: housedone2_Cube_045 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.39:875][856]LogLinker: Can't find file '/Game/Material_055'
+[2017.07.29-11.40.39:875][856]LogLinker: Can't find file '/Game/Material_055'
+[2017.07.29-11.40.39:885][856]LogMaterial: Missing cached shader map for material Material_055, compiling. 
+[2017.07.29-11.40.39:922][856]LogFbx:Warning: Triangulating static mesh Cube.046
+[2017.07.29-11.40.39:926][856]LogStaticMesh: Building static mesh housedone2_Cube_046...
+[2017.07.29-11.40.39:927][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_046.housedone2_Cube_046
+[2017.07.29-11.40.39:927][856]LogStaticMesh:Warning: housedone2_Cube_046 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.39:936][856]LogLinker: Can't find file '/Game/Material_056'
+[2017.07.29-11.40.39:936][856]LogLinker: Can't find file '/Game/Material_056'
+[2017.07.29-11.40.39:945][856]LogMaterial: Missing cached shader map for material Material_056, compiling. 
+[2017.07.29-11.40.39:989][856]LogFbx:Warning: Triangulating static mesh Cube.047
+[2017.07.29-11.40.39:993][856]LogStaticMesh: Building static mesh housedone2_Cube_047...
+[2017.07.29-11.40.39:994][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_047.housedone2_Cube_047
+[2017.07.29-11.40.39:994][856]LogStaticMesh:Warning: housedone2_Cube_047 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.40:004][856]LogFbx:Warning: Triangulating static mesh Cube.050
+[2017.07.29-11.40.40:009][856]LogStaticMesh: Building static mesh housedone2_Cube_050...
+[2017.07.29-11.40.40:010][856]LogStaticMesh: Built static mesh [0.00s] /Game/housedone2_Cube_050.housedone2_Cube_050
+[2017.07.29-11.40.40:010][856]LogStaticMesh:Warning: housedone2_Cube_050 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-11.40.40:030][856]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.29-11.40.40:030][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:031][856]FBXImport:Warning: Warning housedone2_Cube_051 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:031][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:031][856]FBXImport:Warning: Warning housedone2_Cube_049 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:031][856]FBXImport:Warning: Warning housedone2_Cube_048 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:031][856]FBXImport:Warning: Warning housedone2_Cube_042 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:031][856]FBXImport:Warning: Warning housedone2_Cube_014 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:032][856]FBXImport:Warning: Warning housedone2_Cube_013 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:032][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:032][856]FBXImport:Warning: Warning housedone2_Cube_009 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:032][856]FBXImport:Warning: Warning housedone2_Cube_008 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:032][856]FBXImport:Warning: Warning housedone2_Cube_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:032][856]FBXImport:Warning: Warning housedone2_Cube_023 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:032][856]FBXImport:Warning: Warning housedone2_Cube_004 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:032][856]FBXImport:Warning: Warning housedone2_Cube_007 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:032][856]FBXImport:Warning: Warning housedone2_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:032][856]FBXImport:Warning: Warning housedone2_Cube_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:032][856]FBXImport:Warning: Warning housedone2_Cube_006 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:032][856]FBXImport:Warning: Warning housedone2_Cube_021 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:033][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:033][856]FBXImport:Warning: Warning housedone2_Cube_010 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:033][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:033][856]FBXImport:Warning: Warning housedone2_Cube_011 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:033][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:033][856]FBXImport:Warning: Warning housedone2_Cube_012 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:033][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:033][856]FBXImport:Warning: Warning housedone2_Cube_015 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:033][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:033][856]FBXImport:Warning: Warning housedone2_Cube_016 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:033][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:033][856]FBXImport:Warning: Warning housedone2_Cube_017 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:033][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:033][856]FBXImport:Warning: Warning housedone2_Cube_018 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:033][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:034][856]FBXImport:Warning: Warning housedone2_Cube_019 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:034][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:034][856]FBXImport:Warning: Warning housedone2_Cube_020 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:034][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:034][856]FBXImport:Warning: Warning housedone2_Cube_022 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:034][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:034][856]FBXImport:Warning: Warning housedone2_Cube_024 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:034][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:034][856]FBXImport:Warning: Warning housedone2_Cube_025 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:034][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:034][856]FBXImport:Warning: Warning housedone2_Cube_026 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:034][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:034][856]FBXImport:Warning: Warning housedone2_Cube_027 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:034][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:034][856]FBXImport:Warning: Warning housedone2_Cube_028 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:035][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:035][856]FBXImport:Warning: Warning housedone2_Cube_029 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:035][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:035][856]FBXImport:Warning: Warning housedone2_Cube_030 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:035][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:035][856]FBXImport:Warning: Warning housedone2_Cube_031 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:035][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:035][856]FBXImport:Warning: Warning housedone2_Cube_032 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:035][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:035][856]FBXImport:Warning: Warning housedone2_Cube_033 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:035][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:035][856]FBXImport:Warning: Warning housedone2_Cube_034 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:035][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:035][856]FBXImport:Warning: Warning housedone2_Cube_035 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:035][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:035][856]FBXImport:Warning: Warning housedone2_Cube_036 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:036][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:036][856]FBXImport:Warning: Warning housedone2_Cube_037 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:036][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:036][856]FBXImport:Warning: Warning housedone2_Cube_038 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:036][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:036][856]FBXImport:Warning: Warning housedone2_Cube_039 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:036][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:036][856]FBXImport:Warning: Warning housedone2_Cube_040 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:036][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:036][856]FBXImport:Warning: Warning housedone2_Cube_041 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:036][856]FBXImport:Warning: Warning housedone2_Cube_044 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:036][856]FBXImport:Warning: Warning housedone2_Cube_043 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:036][856]FBXImport:Warning: Warning housedone2_Cube_045 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:036][856]FBXImport:Warning: Warning housedone2_Cube_046 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:037][856]FBXImport:Warning: Warning housedone2_Cube_047 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.40:037][856]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.07.29-11.40.40:037][856]FBXImport:Warning: Warning housedone2_Cube_050 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-11.40.47:531][ 93]LogActorFactory: Actor Factory created housedone2_Cube_004
+[2017.07.29-11.40.48:137][114]LogActorFactory: Actor Factory created housedone2_Cube_004
+[2017.07.29-11.40.58:406][453]Cmd: DELETE
+[2017.07.29-11.40.58:406][453]Cmd: ACTOR DELETE
+[2017.07.29-11.40.58:408][453]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.29-11.40.58:485][453]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2017.07.29-11.41.00:121][503]LogActorFactory: Actor Factory created housedone2_Cube_007
+[2017.07.29-11.41.01:004][535]LogActorFactory: Actor Factory created housedone2_Cube_007
+[2017.07.29-11.41.32:887][849]LogRenderer: Reallocating scene render targets to support 1280x680 NumSamples 1 (Frame:2061).
+[2017.07.29-11.42.47:162][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (housedone2_Cube_007)
+[2017.07.29-11.42.47:694][929]Cmd: DELETE
+[2017.07.29-11.42.47:694][929]Cmd: ACTOR DELETE
+[2017.07.29-11.42.47:697][929]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.29-11.42.47:801][929]LogEditorActor: Deleted 1 Actors (0.105 secs)
+[2017.07.29-11.44.05:818][815]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.29-11.44.05:985][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.29-11.44.05:986][815]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.07.29-11.44.05:986][815]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.07.29-11.44.06:002][815]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.07.29-11.44.06:002][815]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.07.29-11.44.06:002][815]PIE: New page: PIE session: World_01 (Jul 29, 2017, 3:44:06 PM)
+[2017.07.29-11.44.06:089][815]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_World_01
+[2017.07.29-11.44.06:093][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004102s)
+[2017.07.29-11.44.06:094][815]LogAIModule: Creating AISystem for world World_01
+[2017.07.29-11.44.06:095][815]LogPlayLevel: PIE: World Init took: (0.001417s)
+[2017.07.29-11.44.06:095][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/World_01.World_01 to /Game/Maps/UEDPIE_0_World_01.World_01 (0.006015s)
+[2017.07.29-11.44.06:150][815]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.29-11.44.06:169][815]LogInit: FAudioDevice initialized.
+[2017.07.29-11.44.06:763][815]LogLoad: Game class is 'BP_GameMode_C'
+[2017.07.29-11.44.06:766][815]LogWorld: Bringing World /Game/Maps/UEDPIE_0_World_01.World_01 up for play (max tick rate 0) at 2017.07.29-13.44.06
+[2017.07.29-11.44.06:767][815]LogWorld: Bringing up level for play took: 0.002104
+[2017.07.29-11.44.06:991][815]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0019 seconds. Added 11 classes and 0 folders.
+[2017.07.29-11.44.06:999][815]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_World_01 0.664
+[2017.07.29-11.44.08:651][901]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.07.29-11.44.08:651][901]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.07.29-11.44.08:652][901]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.07.29-11.44.08:652][901]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.07.29-11.44.08:652][901]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.07.29-11.44.08:757][902]LogPlayLevel:Display: Destroying online subsystem :Context_5
+[2017.07.29-11.44.08:757][902]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.07.29-11.44.10:103][946]LogEditorViewport: Clicking on Actor (LMB): BP_Building_SmallHouse_C (BP_Building_SmallHouse)
+[2017.07.29-11.44.10:931][968]Cmd: DELETE
+[2017.07.29-11.44.10:931][968]Cmd: ACTOR DELETE
+[2017.07.29-11.44.10:934][968]LogEditorActor: Deleted Actor: BP_Building_SmallHouse_C
+[2017.07.29-11.44.11:011][968]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2017.07.29-11.51.59:771][ 81]LogSavePackage: Save=50.77ms
+[2017.07.29-11.51.59:771][ 81]LogSavePackage: Moving '../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Saved/World_01_Auto1388C011D4C915932CA480B909C64C1C8.tmp' to '../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Saved/Autosaves/Game/Maps/World_01_Auto1.umap'
+[2017.07.29-11.51.59:775][ 81]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Saved/Autosaves/Game/Maps/World_01_Auto1.umap
+[2017.07.29-11.51.59:785][ 81]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/World_01' took 0.116
+[2017.07.29-11.51.59:785][ 81]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.116
+[2017.07.29-12.02.00:163][882]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/World_01' took 0.040
+[2017.07.29-12.02.50:744][160]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/3D Objekter/House/house.fbx)
+[2017.07.29-12.02.50:753][160]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.29-12.02.50:753][160]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2017.07.29-12.02.50:753][160]LogFbx: ItemName: Geometry, ItemCount : 8
+[2017.07.29-12.02.50:753][160]LogFbx: ItemName: Model, ItemCount : 10
+[2017.07.29-12.02.50:753][160]LogFbx: ItemName: Material, ItemCount : 5
+[2017.07.29-12.02.50:753][160]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.07.29-12.02.50:753][160]LogFbx: ItemName: Video, ItemCount : 1
+[2017.07.29-12.02.50:762][160]LogFbx: Loading FBX Scene from ../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/3D Objekter/House/house.fbx
+[2017.07.29-12.02.50:775][160]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.29-12.02.54:430][160]LogFbx: Loading FBX Scene from ../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/3D Objekter/House/house.fbx
+[2017.07.29-12.02.54:441][160]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.29-12.02.54:452][160]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.07.29-12.02.54:471][160]LogFbx:Warning: Triangulating static mesh Cube
+[2017.07.29-12.02.54:478][160]LogStaticMesh: Building static mesh house_Cube...
+[2017.07.29-12.02.54:478][160]LogStaticMesh: Built static mesh [0.00s] /Game/house_Cube.house_Cube
+[2017.07.29-12.02.54:479][160]LogStaticMesh:Warning: house_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-12.02.54:494][160]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2017.07.29-12.02.54:522][160]LogFbx:Warning: Triangulating static mesh Cube.001
+[2017.07.29-12.02.54:527][160]LogStaticMesh: Building static mesh house_Cube_001...
+[2017.07.29-12.02.54:530][160]LogStaticMesh: Built static mesh [0.00s] /Game/house_Cube_001.house_Cube_001
+[2017.07.29-12.02.54:538][160]LogFbx:Warning: Triangulating static mesh Cube.002
+[2017.07.29-12.02.54:541][160]LogStaticMesh: Building static mesh house_Cube_002...
+[2017.07.29-12.02.54:544][160]LogStaticMesh: Built static mesh [0.00s] /Game/house_Cube_002.house_Cube_002
+[2017.07.29-12.02.54:553][160]LogFbx:Warning: Triangulating static mesh Cube.003
+[2017.07.29-12.02.54:556][160]LogStaticMesh: Building static mesh house_Cube_003...
+[2017.07.29-12.02.54:557][160]LogStaticMesh: Built static mesh [0.00s] /Game/house_Cube_003.house_Cube_003
+[2017.07.29-12.02.54:557][160]LogStaticMesh:Warning: house_Cube_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-12.02.54:566][160]LogFbx:Warning: Triangulating static mesh Cube.009
+[2017.07.29-12.02.54:578][160]LogStaticMesh: Building static mesh house_Cube_009...
+[2017.07.29-12.02.54:579][160]LogStaticMesh: Built static mesh [0.00s] /Game/house_Cube_009.house_Cube_009
+[2017.07.29-12.02.54:579][160]LogStaticMesh:Warning: house_Cube_009 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-12.02.54:594][160]LogMaterial: Missing cached shader map for material Material_007, compiling. 
+[2017.07.29-12.02.54:628][160]LogFbx:Warning: Triangulating static mesh Cube.006
+[2017.07.29-12.02.54:651][160]LogStaticMesh: Building static mesh house_Cube_006...
+[2017.07.29-12.02.54:653][160]LogStaticMesh: Built static mesh [0.00s] /Game/house_Cube_006.house_Cube_006
+[2017.07.29-12.02.54:654][160]LogStaticMesh:Warning: house_Cube_006 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-12.02.54:669][160]LogLinker: Can't find file '/Game/Material_008'
+[2017.07.29-12.02.54:669][160]LogLinker: Can't find file '/Game/Material_008'
+[2017.07.29-12.02.54:676][160]LogMaterial: Missing cached shader map for material Material_008, compiling. 
+[2017.07.29-12.02.54:710][160]LogFbx:Warning: Triangulating static mesh Cube.004
+[2017.07.29-12.02.54:717][160]LogStaticMesh: Building static mesh house_Cube_004...
+[2017.07.29-12.02.54:718][160]LogStaticMesh: Built static mesh [0.00s] /Game/house_Cube_004.house_Cube_004
+[2017.07.29-12.02.54:719][160]LogStaticMesh:Warning: house_Cube_004 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.07.29-12.02.54:737][160]LogMaterial: Missing cached shader map for material Material_002, compiling. 
+[2017.07.29-12.02.54:774][160]LogFbx:Warning: Triangulating static mesh Cube.005
+[2017.07.29-12.02.54:778][160]LogStaticMesh: Building static mesh house_Cube_005...
+[2017.07.29-12.02.54:783][160]LogStaticMesh: Built static mesh [0.01s] /Game/house_Cube_005.house_Cube_005
+[2017.07.29-12.02.54:796][160]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.29-12.02.54:796][160]FBXImport:Warning: Warning house_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-12.02.54:796][160]FBXImport:Warning: Warning house_Cube_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-12.02.54:796][160]FBXImport:Warning: Warning house_Cube_009 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-12.02.54:796][160]FBXImport:Warning: Warning house_Cube_006 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-12.02.54:796][160]FBXImport:Warning: Warning house_Cube_004 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.07.29-12.02.59:680][300]LogActorFactory: Actor Factory created house_Cube_009
+[2017.07.29-12.03.00:107][318]LogActorFactory: Actor Factory created house_Cube_009
+[2017.07.29-12.04.23:298][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/house_Cube_009" FILE="../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/house_Cube_009.uasset" SILENT=true
+[2017.07.29-12.04.23:334][822]LogSavePackage: Save=31.92ms
+[2017.07.29-12.04.23:334][822]LogSavePackage: Moving '../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Saved/house_Cube_00942BF54A74B0E7F6D16B60FBEC55D27B1.tmp' to '../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/house_Cube_009.uasset'
+[2017.07.29-12.04.23:347][822]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/house_Cube_009.uasset
+[2017.07.29-12.07.18:015][448]LogActorFactory: Actor Factory created house_Cube_006
+[2017.07.29-12.07.18:853][465]LogActorFactory: Actor Factory created house_Cube_006
+[2017.07.29-12.07.25:422][599]Cmd: DELETE
+[2017.07.29-12.07.25:422][599]Cmd: ACTOR DELETE
+[2017.07.29-12.07.25:425][599]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.29-12.07.25:503][599]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2017.07.29-12.07.26:289][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (house_Cube_10)
+[2017.07.29-12.07.26:459][617]Cmd: DELETE
+[2017.07.29-12.07.26:459][617]Cmd: ACTOR DELETE
+[2017.07.29-12.07.26:460][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.29-12.07.26:499][617]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2017.07.29-12.09.45:418][137]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TRASH_StaticMeshComponent_3' or package '/Engine/Transient'.
+[2017.07.29-12.09.45:421][137]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2017.07.29-12.09.45:422][137]LogMaterial:Warning: Failed to compile Material /Game/Models/Material_001.Material_001 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.29-12.09.45:422][137]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.07.29-12.10.09:485][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/World_01" FILE="../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/Maps/World_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.29-12.10.09:643][757]LogSavePackage: Save=74.18ms
+[2017.07.29-12.10.09:643][757]LogSavePackage: Moving '../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Saved/World_0119D54D2247B24131D87BD199F0E8B7D0.tmp' to '../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/Maps/World_01.umap'
+[2017.07.29-12.10.09:653][757]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/Maps/World_01.umap
+[2017.07.29-12.10.11:430][779]LogSavePackage: Save=28.18ms
+[2017.07.29-12.10.11:430][779]LogSavePackage: Moving '../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Saved/BP_Building_SmallHouseB3CB926C4B8A4E6559B9FE9E8863453F.tmp' to '../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/Blueprints/Buildings/BP_Building_SmallHouse.uasset'
+[2017.07.29-12.10.11:434][779]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/Blueprints/Buildings/BP_Building_SmallHouse.uasset
+[2017.07.29-12.10.11:555][779]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.29-12.10.12:023][780]Cmd: QUIT_EDITOR
+[2017.07.29-12.10.12:773][780]LogExit: Preparing to exit.
+[2017.07.29-12.10.13:643][780]LogDirectoryWatcher: A directory notification for 'C:/Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/' was aborted.
+[2017.07.29-12.10.13:724][780]LogExit: Editor shut down
+[2017.07.29-12.10.13:731][780]LogExit: Transaction tracking system shut down
+[2017.07.29-12.10.13:955][780]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.29-12.10.13:956][780]LogExit: Object subsystem successfully closed.
+[2017.07.29-12.10.14:089][780]LogD3D11RHI: Shutdown
+[2017.07.29-12.10.14:089][780]LogD3D11RHI: CleanupD3DDevice
+[2017.07.29-12.10.15:009][780]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.29-12.10.15:059][780]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (534)
+[2017.07.29-12.10.15:059][780]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.07.29-12.10.15:059][780]LogModuleManager: Shutting down and abandoning module Voice (530)
+[2017.07.29-12.10.15:059][780]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (528)
+[2017.07.29-12.10.15:059][780]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2017.07.29-12.10.15:059][780]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (524)
+[2017.07.29-12.10.15:059][780]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.07.29-12.10.15:060][780]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.07.29-12.10.15:060][780]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.07.29-12.10.15:061][780]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.07.29-12.10.15:165][780]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.07.29-12.10.15:165][780]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.07.29-12.10.15:165][780]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.07.29-12.10.15:165][780]LogDirectoryWatcher: A directory notification for 'C:/Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/Collections/' was aborted.
+[2017.07.29-12.10.15:168][780]LogDirectoryWatcher: A directory notification for 'C:/Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/Developers/FuckingWIN8/Collections/' was aborted.
+[2017.07.29-12.10.15:168][780]LogDirectoryWatcher: A directory notification for 'C:/Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Saved/Collections/' was aborted.
+[2017.07.29-12.10.15:168][780]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.07.29-12.10.15:170][780]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.07.29-12.10.15:170][780]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.07.29-12.10.15:170][780]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.07.29-12.10.15:170][780]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.07.29-12.10.15:170][780]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.07.29-12.10.15:170][780]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.07.29-12.10.15:170][780]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.07.29-12.10.15:170][780]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.07.29-12.10.15:170][780]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.07.29-12.10.15:170][780]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.07.29-12.10.15:170][780]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.07.29-12.10.15:171][780]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.07.29-12.10.15:171][780]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.07.29-12.10.15:171][780]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.07.29-12.10.15:171][780]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.07.29-12.10.15:172][780]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.07.29-12.10.15:172][780]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.07.29-12.10.15:172][780]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.07.29-12.10.15:172][780]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.07.29-12.10.15:172][780]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.07.29-12.10.15:172][780]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.07.29-12.10.15:172][780]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.07.29-12.10.15:172][780]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.07.29-12.10.15:172][780]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.07.29-12.10.15:173][780]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.07.29-12.10.15:173][780]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.07.29-12.10.15:173][780]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.07.29-12.10.15:173][780]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.07.29-12.10.15:173][780]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.07.29-12.10.15:173][780]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.07.29-12.10.15:175][780]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.07.29-12.10.15:175][780]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.07.29-12.10.15:175][780]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.07.29-12.10.15:176][780]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.07.29-12.10.15:176][780]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.07.29-12.10.15:176][780]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.07.29-12.10.15:176][780]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.07.29-12.10.15:745][780]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.07.29-12.10.15:745][780]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.07.29-12.10.15:745][780]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.07.29-12.10.15:745][780]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.07.29-12.10.15:745][780]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.07.29-12.10.15:745][780]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.07.29-12.10.15:745][780]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.07.29-12.10.15:745][780]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.07.29-12.10.15:745][780]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.07.29-12.10.15:745][780]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.07.29-12.10.15:745][780]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.07.29-12.10.15:745][780]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.07.29-12.10.15:745][780]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.07.29-12.10.15:745][780]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.07.29-12.10.15:745][780]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.07.29-12.10.15:745][780]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.07.29-12.10.15:745][780]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.07.29-12.10.15:746][780]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.07.29-12.10.15:746][780]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.07.29-12.10.15:746][780]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.07.29-12.10.15:746][780]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.07.29-12.10.15:746][780]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.07.29-12.10.15:746][780]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.07.29-12.10.15:746][780]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.07.29-12.10.15:803][780]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.07.29-12.10.15:803][780]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.07.29-12.10.15:803][780]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.07.29-12.10.15:804][780]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.07.29-12.10.15:804][780]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.07.29-12.10.15:804][780]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.07.29-12.10.15:804][780]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.07.29-12.10.15:804][780]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.07.29-12.10.15:804][780]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.07.29-12.10.15:805][780]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.07.29-12.10.15:810][780]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.07.29-12.10.15:810][780]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.07.29-12.10.15:810][780]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.07.29-12.10.15:810][780]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.07.29-12.10.15:810][780]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.07.29-12.10.15:811][780]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.07.29-12.10.15:811][780]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.07.29-12.10.15:811][780]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.07.29-12.10.15:811][780]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.07.29-12.10.15:811][780]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.07.29-12.10.15:811][780]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.07.29-12.10.15:812][780]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.07.29-12.10.15:812][780]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.07.29-12.10.15:812][780]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.07.29-12.10.15:812][780]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.07.29-12.10.15:812][780]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.07.29-12.10.15:812][780]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.07.29-12.10.15:812][780]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.07.29-12.10.15:812][780]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.07.29-12.10.15:812][780]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.07.29-12.10.15:996][780]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.07.29-12.10.15:996][780]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.07.29-12.10.15:996][780]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.07.29-12.10.15:996][780]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2017.07.29-12.10.15:997][780]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2017.07.29-12.10.15:998][780]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2017.07.29-12.10.15:998][780]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2017.07.29-12.10.15:998][780]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2017.07.29-12.10.15:999][780]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2017.07.29-12.10.15:999][780]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2017.07.29-12.10.15:999][780]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2017.07.29-12.10.15:999][780]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
+[2017.07.29-12.10.15:999][780]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
+[2017.07.29-12.10.15:999][780]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
+[2017.07.29-12.10.16:099][780]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
+[2017.07.29-12.10.16:199][780]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
+[2017.07.29-12.10.16:199][780]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (232)
+[2017.07.29-12.10.16:199][780]LogModuleManager: Shutting down and abandoning module FacialAnimation (230)
+[2017.07.29-12.10.16:199][780]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
+[2017.07.29-12.10.16:199][780]LogModuleManager: Shutting down and abandoning module GraphEditor (227)
+[2017.07.29-12.10.16:199][780]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.07.29-12.10.16:201][780]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (222)
+[2017.07.29-12.10.16:201][780]LogModuleManager: Shutting down and abandoning module Paper2D (220)
+[2017.07.29-12.10.16:201][780]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (218)
+[2017.07.29-12.10.16:201][780]LogModuleManager: Shutting down and abandoning module WmfMedia (216)
+[2017.07.29-12.10.16:201][780]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (214)
+[2017.07.29-12.10.16:201][780]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (212)
+[2017.07.29-12.10.16:201][780]LogModuleManager: Shutting down and abandoning module MediaAssets (210)
+[2017.07.29-12.10.16:201][780]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (208)
+[2017.07.29-12.10.16:202][780]LogModuleManager: Shutting down and abandoning module VREditor (206)
+[2017.07.29-12.10.16:202][780]LogModuleManager: Shutting down and abandoning module StringTableEditor (204)
+[2017.07.29-12.10.16:202][780]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (202)
+[2017.07.29-12.10.16:202][780]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (200)
+[2017.07.29-12.10.16:202][780]LogModuleManager: Shutting down and abandoning module FunctionalTesting (198)
+[2017.07.29-12.10.16:202][780]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (196)
+[2017.07.29-12.10.16:202][780]LogModuleManager: Shutting down and abandoning module UMG (194)
+[2017.07.29-12.10.16:202][780]LogModuleManager: Shutting down and abandoning module UMGEditor (193)
+[2017.07.29-12.10.16:202][780]LogModuleManager: Shutting down and abandoning module Sequencer (192)
+[2017.07.29-12.10.16:202][780]LogModuleManager: Shutting down and abandoning module AssetTools (190)
+[2017.07.29-12.10.16:202][780]LogModuleManager: Shutting down and abandoning module MessageLog (189)
+[2017.07.29-12.10.16:202][780]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (188)
+[2017.07.29-12.10.16:202][780]LogModuleManager: Shutting down and abandoning module SlateReflector (182)
+[2017.07.29-12.10.16:202][780]LogModuleManager: Shutting down and abandoning module Slate (180)
+[2017.07.29-12.10.16:202][780]LogModuleManager: Shutting down and abandoning module EditorStyle (178)
+[2017.07.29-12.10.16:205][780]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (176)
+[2017.07.29-12.10.16:205][780]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (174)
+[2017.07.29-12.10.16:205][780]LogModuleManager: Shutting down and abandoning module XAudio2 (172)
+[2017.07.29-12.10.16:205][780]LogModuleManager: Shutting down and abandoning module Networking (170)
+[2017.07.29-12.10.16:205][780]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.07.29-12.10.16:205][780]LogModuleManager: Shutting down and abandoning module AssetRegistry (166)
+[2017.07.29-12.10.16:435][780]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.29-12.10.16:435][780]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Fucking WIN8/Documents/GitHub/RTS/RTS/Content/' was aborted.
+[2017.07.29-12.10.16:435][780]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.29-12.10.16:435][780]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.07.29-12.10.16:440][780]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2017.07.29-12.10.16:446][780]LogModuleManager: Shutting down and abandoning module KismetCompiler (162)
+[2017.07.29-12.10.16:446][780]LogModuleManager: Shutting down and abandoning module LevelSequence (160)
+[2017.07.29-12.10.16:446][780]LogModuleManager: Shutting down and abandoning module PhysXFormats (158)
+[2017.07.29-12.10.16:446][780]LogModuleManager: Shutting down and abandoning module MeshUtilities (156)
+[2017.07.29-12.10.16:446][780]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (155)
+[2017.07.29-12.10.16:446][780]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (153)
+[2017.07.29-12.10.16:446][780]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (151)
+[2017.07.29-12.10.16:446][780]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2017.07.29-12.10.16:493][780]LogDerivedDataCache: Shutdown
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2017.07.29-12.10.16:493][780]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (99)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (97)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (95)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (93)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (85)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module OculusRift (60)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module GearVRController (58)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module GearVR (56)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (52)
+[2017.07.29-12.10.16:494][780]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (48)
+[2017.07.29-12.10.16:494][780]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.07.29-12.10.16:494][780]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2017.07.29-12.10.16:495][780]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2017.07.29-12.10.16:495][780]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2017.07.29-12.10.16:495][780]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.29-12.10.16:495][780]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.07.29-12.10.16:495][780]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.07.29-12.10.16:495][780]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.29-12.10.16:495][780]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4FB0F689-4793-0A0E-8515-28A83484BC95%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=9cdb6abd4f65134a51c37098b934dbff%7C6ce5f8b521c2485a8192789e2da115f6%7C46d3f44d-63df-4a07-8aa5-53a73837930d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.29-12.10.16:531][780]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.07.29-12.10.16:533][780]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.07.29-12.10.16:533][780]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.07.29-12.10.16:533][780]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.07.29-12.10.16:533][780]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.29-12.10.16:533][780]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.29-12.10.16:533][780]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.29-12.10.16:533][780]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.29-12.10.16:533][780]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.29-12.10.16:539][780]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.29-12.10.16:539][780]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.29-12.10.16:539][780]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.29-12.10.16:539][780]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.29-12.10.16:539][780]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.29-12.10.16:539][780]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.29-12.10.16:539][780]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.29-12.10.16:539][780]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.29-12.10.16:539][780]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.29-12.10.16:539][780]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.29-12.10.16:543][780]LogExit: Exiting.
+[2017.07.29-12.10.16:602][780]Log file closed, 07/29/17 14:10:16
